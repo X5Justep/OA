@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root> 
+  <interface> 
+  <!-- 流程自动归档配置 -->>
+    <sendDocToArchival> 
+      <enable>false</enable>  
+      <fondsID>0E9E439941BB4D2C80149CA0458CCC67</fondsID>  
+      <fondsName>文书档案</fondsName>  
+      <categoryID>F7AA2B38E3C34B89B64C10D917BCE516</categoryID>  
+      <categoryName>临时目录</categoryName>  
+      <rollID></rollID>  
+      <rollName></rollName>  
+      <secret></secret>  
+      <carry>电子</carry>  
+      <limit></limit>  
+      <funcURL>/OA/doc/process/readDocQuery/readDocDetailQuery.w</funcURL>  
+      <table>OA_DC_Doc</table>  
+      <filed>fArchivalID</filed> 
+    </sendDocToArchival>  
+    
+    <reciveDocToArchival> 
+      <enable>false</enable>  
+	  <fondsID>0E9E439941BB4D2C80149CA0458CCC67</fondsID>  
+      <fondsName>文书档案</fondsName>  
+      <categoryID>F7AA2B38E3C34B89B64C10D917BCE516</categoryID>  
+      <categoryName>临时目录</categoryName>  
+      <rollID></rollID>  
+      <rollName></rollName>  
+      <secret></secret>  
+      <carry>电子</carry>  
+      <limit></limit>  
+      <funcURL>/OA/doc/process/readDocQuery/readDocDetailQuery.w</funcURL>  
+      <table>OA_DC_Doc</table>  
+      <filed>fArchivalID</filed> 
+    </reciveDocToArchival>  
+   <!-- 查询归档 -->>
+    <queryDocToArchival>
+      <enable>false</enable>  
+      <!-- 全宗设置 -->
+      <fondsID>0E9E439941BB4D2C80149CA0458CCC67</fondsID>  
+      <fondsName>文书档案</fondsName>   
+      <!-- 档案分类 -->
+      <categoryID>F7AA2B38E3C34B89B64C10D917BCE516</categoryID>  
+      <categoryName>临时目录</categoryName> 
+      <!-- 案卷设置 -->>
+      <rollID></rollID>  
+      <rollName></rollName>  
+      <secret></secret>  
+      <carry>电子</carry>  
+      <limit></limit>  
+      <funcURL>/OA/doc/process/readDocQuery/readDocDetailQuery.w</funcURL>  
+      <table>OA_DC_Doc</table>  
+      <filed>fArchivalID</filed> 
+    </queryDocToArchival> 
+  </interface>  
+  <business/> 
+</root>

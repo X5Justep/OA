@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root> 
+  <item display="solid" label="lyf车辆管理"> 
+    <item display="solid" label="基础设置"> 
+      <item label="车辆类型" process="/OA/car/process/carCodeSet/carKindSet/carKindSetProcess"
+        activity="startActivity" url="$UI/OA/car/process/carCodeSet/carKindSet/carKindSet.a"/>  
+      <item label="费用类型" process="/OA/car/process/carCodeSet/feeKindSet/feeKindSetProcess"
+        activity="startActivity" url="$UI/OA/car/process/carCodeSet/feeKindSet/feeKindSet.a"/>  
+      <item label="使用性质" process="/OA/car/process/carCodeSet/useKindSet/useKindSetProcess"
+        activity="startActivity" url="$UI/OA/car/process/carCodeSet/useKindSet/useKindSet.a"/>  
+      <item label="违章类型" process="/OA/car/process/carCodeSet/peccancyKindSet/peccancyKindSetProcess"
+        activity="startActivity" url="$UI/OA/car/process/carCodeSet/peccancyKindSet/peccancyKindSet.a"/>  
+      <item label="年审項目" process="/OA/car/process/carCodeSet/yearCheckItemSet/yearCheckItemSetProcess"
+        activity="startActivity" url="$UI/OA/car/process/carCodeSet/yearCheckItemSet/yearCheckItemSet.a"/>  
+      <item label="车辆信息" process="/OA/car/process/carBasicInfo/carBasicInfoProcess"
+        activity="startActivity" url="$UI/OA/car/process/carBasicInfo/carBasicInfo.a"/>  
+      <item label="司机信息" process="/OA/car/process/carDriverInfo/carDriverInfoProcess"
+        activity="startActivity" url="$UI/OA/car/process/carDriverInfo/carDriverInfo.a"/> 
+    </item>  
+    <item display="solid" label="用车申请"> 
+      <item label="车辆使用申请" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="startActivity" url="$UI/OA/car/process/carUseApply/startActivity.a"/>  
+      <item label="用车申请通知" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="noticeActivity" url="$UI/OA/car/process/carUseApply/noticeActivity.a"/>  
+      <item label="用车申请" display="hide" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="createActivity" url="$UI/OA/car/process/carUseApply/createActivity.a"/>  
+      <item label="科长审核" display="hide" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="deptActivity" url="$UI/OA/car/process/carUseApply/deptActivity.a"/>  
+      <item label="部门领导审批" display="hide" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="mainDeptActivity" url="$UI/OA/car/process/carUseApply/mainDeptActivity.a"/>  
+      <item label="用车安排" display="hide" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="carArrangeActivity" url="$UI/OA/car/process/carUseApply/carArrangeActivity.a"/>  
+      <item label="所领导审批" display="hide" process="/OA/car/process/carUseApply/carUseApplyProcess"
+        activity="bizActivity1" url="$UI/OA/car/process/carUseApply/bizActivity1.a"/>  
+      <item label="用车申请查询" process="/OA/car/process/carUseApplyQuery/carUseApplyQueryProcess"
+        activity="startActivity" url="$UI/OA/car/process/carUseApplyQuery/carUseApplyQuery.a"/> 
+    </item>  
+    <item label="用车管理" process="/OA/car/process/carUseManage/carUseManageProcess"
+      activity="startActivity" url="$UI/OA/car/process/carUseManage/carUseManage.a"/>  
+    <item label="用车记录" process="/OA/car/process/carUseRecord/carUseRecordProcess"
+      activity="startActivity" url="$UI/OA/car/process/carUseRecord/carUseRecord.a"/>  
+    <item label="违章记录" process="/OA/car/process/carPeccancyRecord/carPeccancyRecordProcess"
+      activity="startActivity" url="$UI/OA/car/process/carPeccancyRecord/carPeccancyRecord.a"/>  
+    <item label="事故记录" process="/OA/car/process/carAccidentRecord/carAccidentRecordProcess"
+      activity="startActivity" url="$UI/OA/car/process/carAccidentRecord/carAccidentRecord.a"/>  
+    <item display="solid" label="用车月费登记及统计">
+      <item label="车辆费用登记" process="/OA/car/process/carFeesRegister/carFeesRegisterProcess"
+        activity="mainActivity" url="$UI/OA/car/process/carFeesRegister/mainActivity.a"/>
+      <item label="用车月费用统计" process="/OA/car/process/carFeesAnalysis/carFeesAnalysisProcess"
+        activity="mainActivity" url="$UI/OA/car/process/carFeesAnalysis/mainActivity.a"/>
+    </item>
+  </item> 
+</root>

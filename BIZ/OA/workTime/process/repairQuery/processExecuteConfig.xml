@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<enabled>true</enabled>
+	<data-model>/OA/workTime/data</data-model>
+	<biz-concept>OA_WM_repairApply</biz-concept>
+	<execute-concept>OA_repair_EXECUTE</execute-concept>
+	
+	<execute-dialog>
+		<verdict-displayed>bizActivity2,bizActivity3</verdict-displayed>
+		<opinion-required>none</opinion-required>
+		
+		<advance-enabled>all</advance-enabled>
+		<back-enabled>bizActivity2,bizActivity3</back-enabled>
+		<transfer-enabled>none</transfer-enabled>
+		<abort-enabled>bizActivity2,bizActivity3</abort-enabled>
+	</execute-dialog>
+	<execute-list>
+		<displayed-activities></displayed-activities>
+	</execute-list>
+</root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><model xmlns="http://www.justep.com/model">
+	<use>/OA/doc/data</use>
+	<use>/OA/doc/logic/action</use>
+	<use>/OA/doc/logic/code</use>
+	<use>/system/logic/fn</use>
+	<use>/system/logic/action</use>
+	<use>/system/logic/code</use>
+<use>/OA/res/logic/action</use><use>/SA/task/logic/action</use></model>

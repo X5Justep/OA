@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root> 
+  <item display="solid" label="lyf常用办公管理"> 
+    <item display="solid" label="印章管理"> 
+      <item display="solid" label="基础数据"> 
+        <item label="印章类别" process="/OA/signature/process/signatureType/signatureTypeProcess"
+          activity="startActivity" url="$UI/OA/signature/process/signatureType/signatureType.a"/> 
+      </item>  
+      <item label="印章申请查询" process="/OA/signature/process/signatureApplyQuery/signatureApplyQueryProcess"
+        activity="startActivity" url="$UI/OA/signature/process/signatureApplyQuery/signatureApplyQuery.a"/>  
+      <item label="印章申请" display="hide" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="createSignatureActivity" url="$UI/OA/signature/process/signatureApply/createSignatureActivity.a"/>  
+      <item label="部门审批" display="hide" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="managerProcessSignatureActivity" url="$UI/OA/signature/process/signatureApply/managerProcessSignatureActivity.a"/>  
+      <item label="签收" display="hide" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="managerDealActivity" url="$UI/OA/signature/process/signatureApply/managerDealActivity.a"/>  
+      <item label="办公室主任审批" display="hide" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="chargeActivity" url="$UI/OA/signature/process/signatureApply/chargeActivity.a"/>  
+      <item label="主管领导批示" display="hide" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="headMangerActivity" url="$UI/OA/signature/process/signatureApply/headMangerActivity.a"/>  
+      <item label="印章使用申请" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="startActivity" url="$UI/OA/signature/process/signatureApply/startActivity.a"/>
+      <item label="印章使用申请通知" process="/OA/signature/process/signatureApply/signatureApplyProcess"
+        activity="noticeActivity" url="$UI/OA/signature/process/signatureApply/noticeActivity.a"/>
+    </item> 
+  </item> 
+</root>

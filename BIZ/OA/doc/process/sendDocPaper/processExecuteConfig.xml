@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<enabled>true</enabled>
+	<data-model>/OA/doc/data</data-model>
+	<biz-concept>OA_DC_Doc</biz-concept>
+	<execute-concept>OA_DC_DocExecute</execute-concept>
+	
+	<execute-dialog>
+		<verdict-displayed>none</verdict-displayed>
+		<opinion-required>none</opinion-required>
+		
+		<advance-enabled>all</advance-enabled>
+		<back-enabled>deptApproveActivity,secretaryDealActivity,secretaryHandleActivity,registerNumActivity,stampActivity,dispenseActivity</back-enabled>
+		<transfer-enabled>all</transfer-enabled>
+		<abort-enabled>all</abort-enabled>
+	</execute-dialog>
+	<execute-list>
+		<displayed-activities></displayed-activities>
+	</execute-list>
+</root>
